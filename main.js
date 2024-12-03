@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
         localStorage.setItem("people", JSON.stringify(userList));
   
         alert("Sign up successful! Go To Login");
-        window.location.href = "login.html";
+        window.location.href = "index.html";
       });
     }
   
