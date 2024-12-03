@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (Logout) {
       Logout.addEventListener("click", function () {
         localStorage.removeItem("currentUser");
-        window.location.href = "sign.html";
+        window.location.href = "index.html";
       });
     }
   
